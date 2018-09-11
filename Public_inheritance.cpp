@@ -11,6 +11,8 @@ class Person{
 };
 
 class Student : public Person {
+	//--> public inheritance means the public member of the base class is available in the sub
+	// class publically and the protected member is available in the subclass in protected form
 	public:
 		void display() {
 			cout<<name<<endl;
